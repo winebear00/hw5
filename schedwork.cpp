@@ -87,10 +87,8 @@ bool fixSchedule(const AvailabilityMatrix& avail, DailySchedule& sched, const si
 
 
 
-<<<<<<< HEAD
 }*/
-=======
-}*/ 
+
 
 // Add your implementation of schedule() and other helper functions here
 bool canWork(const AvailabilityMatrix& avail, const size_t maxShift, DailySchedule& sched, int day, Worker_T worker) {
@@ -140,7 +138,6 @@ bool schedule(
     } 
     return fixSchedule(avail, sched, dailyNeed, maxShifts, 0, 0);
 }
->>>>>>> ed5d17fb776a9c77af4ae0ecb1cc231b45d446de
 
 
 
