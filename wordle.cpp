@@ -5,6 +5,7 @@
 #include <algorithm> 
 #include <map>
 #include <set>
+//#include <string> //I add this 
 #endif
 
 #include "wordle.h"
@@ -114,3 +115,43 @@ void permuteFloatLetter (string floating, set<string>& floatCombo, int startInde
         guessWords(floatingCombo, "", dict, wordList); 
         makeList(in, floating, dict, wordList);
     }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+/*std::set<std::string> guessWord (
+    const std::string& in, 
+    const std::string& floating, 
+    const std::set<std::string>& dict,
+    std::string prefiex)
+    {
+        //base case: when there is no dashes 
+        string guessWord=in; 
+        vector<char> floatLetter (floating.begin(),floating.end()); 
+        int length=guessWord.size();
+        int dashCount=0; 
+        for (int i=0; i<length; i++)
+        {
+            if (guessWord[i]=='-')
+            {
+                dashCount++; 
+            }
+        }
+        if (dashCount==floatLetter.size())
+        {
+
+        }
+
+
+    }*/
+>>>>>>> ed5d17fb776a9c77af4ae0ecb1cc231b45d446de
